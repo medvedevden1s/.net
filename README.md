@@ -4,12 +4,12 @@ cover: https://gitbookio.github.io/onboarding-template-images/header.png
 coverY: 0
 layout:
   cover:
-    visible: true
+    visible: false
     size: full
   title:
     visible: true
   description:
-    visible: false
+    visible: true
   tableOfContents:
     visible: true
   outline:
