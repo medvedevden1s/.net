@@ -38,7 +38,11 @@
 ## .Net
 
 * [Introduction to .Net](.net/introduction-to-.net.md)
-* [Architecture of .NET Framework](.net/architecture-of-.net-framework.md)
+* [Architecture of .NET Framework](.net/architecture-of-.net-framework/README.md)
+  * [Common Language Runtime (CLR)](.net/architecture-of-.net-framework/common-language-runtime-clr.md)
+  * [Base Class Library (BCL)](.net/architecture-of-.net-framework/base-class-library-bcl.md)
+  * [Common Type System (CTS)](.net/architecture-of-.net-framework/common-type-system-cts.md)
+  * [Common Language Specification (CLS)](.net/architecture-of-.net-framework/common-language-specification-cls.md)
 
 ***
 

@@ -25,7 +25,7 @@ When compiled, source code is transformed into a language-neutral format called 
 2. **Just-in-Time (JIT) Compilation**: CLR uses the JIT compiler to convert the CIL code into platform-specific machine code dynamically, optimizing execution for the current hardware.
 3. **Execution**: The resulting machine code runs directly on the target computer’s processor, delivering optimized and responsive application performance.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt="Architecture of .NET Framework Diagram" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt="Architecture of .NET Framework Diagram" width="375"><figcaption></figcaption></figure>
 
 ### FAQ
 
