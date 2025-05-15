@@ -16,8 +16,7 @@ It's an open-source, cross-platform framework designed to create modern applicat
 
 #### Canonical
 
-* Offers commercial support for .NET on Ubuntu:
-  * **.NET 6 and 8** supported on Ubuntu 22.04 and later.
+* Offers commercial support for .NET on Ubuntu
 
 #### Microsoft
 
