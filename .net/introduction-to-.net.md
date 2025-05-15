@@ -4,13 +4,15 @@
 
 It's an open-source, cross-platform framework designed to create modern applications and robust cloud services. It empowers developers to build versatile, high-performance applications across different platforms with a unified development experience.
 
-### Why Should We Use .NET?
+## Why Should We Use .NET?
+
+### Any app, Any platform
 
 .NET enables developers to build any type of application—web, mobile, desktop, cloud, or AI-powered—across all major platforms using shared skills and code. From scalable web services and cross-platform native apps to cloud-native solutions and intelligent systems with machine learning, .NET provides a unified, efficient, and cost-effective development experience.
 
 <figure><img src="../.gitbook/assets/{7B9824C5-DE0B-463F-9F39-8DB9E5A9D003}.png" alt=""><figcaption></figcaption></figure>
 
-#### Support
+### Support
 
 .NET binaries, packages, and container images are provided and supported by organizations that participate in the .NET community, [build .NET from source](https://github.com/dotnet/dotnet), and offer regularly updated assets to their users. These organizations work together to enable developers to be productive and safe on Linux, macOS, and Windows.
 
@@ -39,18 +41,18 @@ It's an open-source, cross-platform framework designed to create modern applicat
 
 More information about the community can be found on the [.NET Community page](https://dotnet.microsoft.com/en-us/platform/community).
 
-#### Exceptional Performance
+### Exceptional Performance
 
 .NET is recognized for its remarkable speed and efficiency. For instance, in the [TechEmpower's Round](https://www.techempower.com/benchmarks/#section=data-r23\&hw=ph\&test=fortune) 23 Fortunes test, which evaluates a web application's performance in querying databases and rendering HTML server-side, .NET consistently ranks highly.
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-#### Multi-language Support
+### Multi-language Support
 
 .NET supports multiple programming languages, enabling developers to use their preferred coding style and paradigms. Prominent languages include:
 
-* **C#**
-* **F#**
-* **Visual Basic (VB)**
+* C#
+* F#
+* Visual Basic (VB)
 
 This multi-language approach allows for greater flexibility and more intuitive application development.
