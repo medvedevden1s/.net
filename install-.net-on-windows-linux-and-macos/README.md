@@ -2,7 +2,7 @@
 
 {% tabs %}
 {% tab title="🪟 Windows" %}
-Install on Windows
+&#x20;
 {% endtab %}
 
 {% tab title="🍏 macOS" %}
@@ -15,9 +15,3 @@ Install on Windows
 
 {% endtab %}
 {% endtabs %}
-
-
-
-```
-// Some code
-```
