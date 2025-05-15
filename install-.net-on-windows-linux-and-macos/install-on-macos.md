@@ -12,4 +12,12 @@
 
 <figure><img src="../.gitbook/assets/{6E205AE0-23D7-4757-ABCE-130086EBF2FB}.png" alt=""><figcaption></figcaption></figure>
 
-####
+#### Verify Installation
+
+Open **Command Prompt** and run:
+
+```
+dotnet --version
+```
+
+This shows the installed .NET SDK version.
