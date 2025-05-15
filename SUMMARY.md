@@ -38,8 +38,12 @@
 ## .Net
 
 * [Introduction to .Net](.net/introduction-to-.net.md)
+* [History](.net/history.md)
 * [Architecture of .NET Framework](.net/architecture-of-.net-framework/README.md)
-  * [Common Language Runtime (CLR)](.net/architecture-of-.net-framework/common-language-runtime-clr.md)
+  * [Common Language Runtime (CLR)](.net/architecture-of-.net-framework/common-language-runtime-clr/README.md)
+    * [Managed code](.net/architecture-of-.net-framework/common-language-runtime-clr/managed-code.md)
+    * [Unmanaged code](.net/architecture-of-.net-framework/common-language-runtime-clr/unmanaged-code.md)
+    * [Garbage collection](.net/architecture-of-.net-framework/common-language-runtime-clr/garbage-collection.md)
   * [Base Class Library (BCL)](.net/architecture-of-.net-framework/base-class-library-bcl.md)
   * [Common Type System (CTS)](.net/architecture-of-.net-framework/common-type-system-cts.md)
   * [Common Language Specification (CLS)](.net/architecture-of-.net-framework/common-language-specification-cls.md)
