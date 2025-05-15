@@ -46,3 +46,6 @@
   * [Install on windows](install-.net-on-windows-linux-and-macos/install-on-windows.md)
   * [Install on macOS](install-.net-on-windows-linux-and-macos/install-on-macos.md)
   * [Install on Linux](install-.net-on-windows-linux-and-macos/install-on-linux.md)
+* [What's new?](whats-new/README.md)
+  * [.NET 10](whats-new/.net-10.md)
+  * [.NET 9](whats-new/.net-9.md)
