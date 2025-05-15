@@ -10,9 +10,9 @@ It's an open-source, cross-platform framework designed to create modern applicat
 
 <figure><img src="../.gitbook/assets/{7B9824C5-DE0B-463F-9F39-8DB9E5A9D003}.png" alt=""><figcaption></figcaption></figure>
 
-#### Longevity
+#### Support
 
-How many UI frameworks have you encountered? React, Angular, and perhaps a few others have survived and thrived, largely due to backing from powerful organizations like Meta and Google. Similarly, .NET benefits greatly from robust organizational backing, ensuring its stability and long-term viability. Just some of them:&#x20;
+.NET binaries, packages, and container images are provided and supported by organizations that participate in the .NET community, [build .NET from source](https://github.com/dotnet/dotnet), and offer regularly updated assets to their users. These organizations work together to enable developers to be productive and safe on Linux, macOS, and Windows.
 
 #### Canonical
 
