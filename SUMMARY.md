@@ -38,3 +38,4 @@
 ## .Net
 
 * [Introduction to .Net](.net/introduction-to-.net.md)
+* [Architecture of .NET Framework](.net/architecture-of-.net-framework.md)
