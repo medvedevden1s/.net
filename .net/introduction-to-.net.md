@@ -6,9 +6,7 @@ It's an open-source, cross-platform framework designed to create modern applicat
 
 ## Why Should We Use .NET?
 
-### Any app, Any platform
-
-.NET enables developers to build any type of application—web, mobile, desktop, cloud, or AI-powered—across all major platforms using shared skills and code. From scalable web services and cross-platform native apps to cloud-native solutions and intelligent systems with machine learning, .NET provides a unified, efficient, and cost-effective development experience.
+.NET enables developers to build any app on any platform! Web, mobile, desktop, cloud, or AI-powered—across all major platforms using shared skills and code. From scalable web services and cross-platform native apps to cloud-native solutions and intelligent systems with machine learning, .NET provides a unified, efficient, and cost-effective development experience.
 
 <figure><img src="../.gitbook/assets/{7B9824C5-DE0B-463F-9F39-8DB9E5A9D003}.png" alt=""><figcaption></figcaption></figure>
 
