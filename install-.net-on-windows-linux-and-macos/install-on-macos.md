@@ -16,7 +16,7 @@
 
 Open **Command Prompt** and run:
 
-```
+```bash
 dotnet --version
 ```
 

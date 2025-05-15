@@ -1,4 +1,4 @@
-# 🪟Install on windows
+# Install on windows
 
 1. Go to [dotnet.microsoft.com/download/dotnet](https://dotnet.microsoft.com/download/dotnet)
 2. Choose your desired version (e.g., **.NET 9.0**).
@@ -13,7 +13,7 @@
 
 Open **Command Prompt** and run:
 
-```
+```bash
 dotnet --version
 ```
 
