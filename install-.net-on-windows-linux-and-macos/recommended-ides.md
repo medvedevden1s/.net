@@ -29,6 +29,8 @@ Visual Studio is Microsoft’s flagship IDE for .NET development. It's feature-r
 
 🔗 [Download Visual Studio](https://visualstudio.microsoft.com/downloads/)
 
+<figure><img src="../.gitbook/assets/{2A57F1B4-FE19-4A35-B6F4-3ACC62BFDE03}.png" alt=""><figcaption></figcaption></figure>
+
 ### Visual Studio Code
 
 Visual Studio Code is a lightweight and extensible source code editor. With the right extensions, it becomes a capable environment for C# and .NET development.
