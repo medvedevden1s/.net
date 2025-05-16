@@ -15,7 +15,7 @@ JetBrains Rider is a fast, cross-platform .NET IDE packed with powerful features
 
 🔗 [Download Rider](https://www.jetbrains.com/rider/)
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ### Visual Studio
 
@@ -29,7 +29,7 @@ Visual Studio is Microsoft’s flagship IDE for .NET development. It's feature-r
 
 🔗 [Download Visual Studio](https://visualstudio.microsoft.com/downloads/)
 
-<figure><img src="../.gitbook/assets/{2A57F1B4-FE19-4A35-B6F4-3ACC62BFDE03}.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/{2A57F1B4-FE19-4A35-B6F4-3ACC62BFDE03}.png" alt=""><figcaption></figcaption></figure>
 
 ### Visual Studio Code
 

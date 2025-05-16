@@ -119,6 +119,8 @@ The entire modern .NET stack is now hosted on [GitHub](https://github.com/dotnet
 
 
 
+Support
+
 | Version                                                  | Release Date       | Latest Update   | Latest Update Date | Support Ends      | Support Lifetime      |
 | -------------------------------------------------------- | ------------------ | --------------- | ------------------ | ----------------- | --------------------- |
 | <mark style="background-color:red;">.NET Core 1.0</mark> | June 27, 2016      | 1.0.16          | May 14, 2019       | June 27, 2019     | 3 years               |

@@ -1,4 +1,4 @@
-# Install on windows
+# Install on Windows
 
 1. Go to [dotnet.microsoft.com/download/dotnet](https://dotnet.microsoft.com/download/dotnet)
 2. Choose your desired version (e.g., **.NET 9.0**).
@@ -7,7 +7,7 @@
 
 ***
 
-<figure><img src="../.gitbook/assets/{6E205AE0-23D7-4757-ABCE-130086EBF2FB}.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/{6E205AE0-23D7-4757-ABCE-130086EBF2FB}.png" alt=""><figcaption></figcaption></figure>
 
 #### Verify Installation
 
