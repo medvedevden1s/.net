@@ -37,8 +37,8 @@
 
 ## .Net
 
-* [.NET Owerview](.net/.net-owerview.md)
-* [Introduction to .Net](.net/introduction-to-.net.md)
+* [Introduction](.net/introduction.md)
+* [Key components](.net/key-components.md)
 * [Install .NET on Windows, Linux, and macOS](.net/install-.net-on-windows-linux-and-macos/README.md)
   * [Install on Windows](.net/install-.net-on-windows-linux-and-macos/install-on-windows.md)
   * [Install on macOS](.net/install-.net-on-windows-linux-and-macos/install-on-macos.md)
