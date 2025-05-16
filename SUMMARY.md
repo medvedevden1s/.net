@@ -57,3 +57,7 @@
 * [What's new?](.net/whats-new/README.md)
   * [.NET 10](.net/whats-new/.net-10.md)
   * [.NET 9](.net/whats-new/.net-9.md)
+
+## c# <a href="#csharp" id="csharp"></a>
+
+* [Introduction](csharp/introduction.md)
