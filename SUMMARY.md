@@ -52,6 +52,7 @@
   * [Base Class Library (BCL)](.net/advanced/base-class-library-bcl.md)
   * [Common Language Specification (CLS)](.net/advanced/common-language-specification-cls.md)
   * [Common Type System (CTS)](.net/advanced/common-type-system-cts.md)
+  * [Ecma standards](.net/advanced/ecma-standards.md)
 * [History](.net/history.md)
 * [What's new?](.net/whats-new/README.md)
   * [.NET 10](.net/whats-new/.net-10.md)
