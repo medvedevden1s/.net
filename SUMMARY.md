@@ -66,7 +66,8 @@
 
 * [Hello World: Your First C# Program](hello-world-your-first-c-program.md)
 * [Fundamentals](fundamentals/README.md)
-  * [Program structure](fundamentals/program-structure.md)
+  * [Program structure](fundamentals/program-structure/README.md)
+    * [Main Method](fundamentals/program-structure/main-method.md)
   * [Identifiers](fundamentals/identifiers.md)
   * [Keywords](fundamentals/keywords.md)
   * [Types](fundamentals/types.md)
