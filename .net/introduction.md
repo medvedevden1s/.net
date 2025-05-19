@@ -1,4 +1,4 @@
-# Introduction to .Net
+# Introduction
 
 ## What is .NET?
 
@@ -42,7 +42,7 @@ More information about the community can be found on the [.NET Community page](h
 
 .NET is recognized for its remarkable speed and efficiency. For instance, in the [TechEmpower's Round](https://www.techempower.com/benchmarks/#section=data-r23\&hw=ph\&test=fortune) 23 Fortunes test, which evaluates a web application's performance in querying databases and rendering HTML server-side, .NET consistently ranks highly.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 ### Multi-language Support
 
