@@ -66,8 +66,6 @@ Console.WriteLine($"Calculated Velocity: {velocity} m/s");
 * The compiler implicitly generates the Main method for you.
 * Explicit Main declaration isn't allowed alongside top-level statements.
 
-###
-
 ### ❓ FAQs
 
 #### Why must the Main method be static?
@@ -82,7 +80,7 @@ Yes, but you must clearly specify one entry point using the `StartupObject` comp
 
 Absolutely, here's a quick example:
 
-```
+```csharp
 static async Task Main(string[] args)
 {
     await SomeAsyncMethod();
