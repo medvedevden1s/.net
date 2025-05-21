@@ -284,7 +284,9 @@ struct Coordinate { public int X, Y; } // small and temporary
 class Customer { public string Name; } // dynamic and potentially large data
 ```
 
+{% hint style="warning" %}
 #### **Advanced:**
+{% endhint %}
 
 #### **Is using a struct always faster than a class?**
 

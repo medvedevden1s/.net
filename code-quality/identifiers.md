@@ -150,9 +150,7 @@ public class OrderProcessor
 Consistent and clear identifiers significantly enhance code readability and maintenance.&#x20;
 {% endhint %}
 
-
-
-### ❓ **FAQ**
+### **FAQs**
 
 **Can an identifier start with a number?**\
 No, identifiers must begin with a letter or underscore (`_`).
