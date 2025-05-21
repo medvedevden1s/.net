@@ -60,13 +60,16 @@
 
 ***
 
-* [Hello World: Your First C# Program](hello-world-your-first-c-program.md)
+* [Hello World: Your first C# program](hello-world-your-first-c-program.md)
 * [Fundamentals](fundamentals/README.md)
   * [Program structure](fundamentals/program-structure.md)
-  * [Main Method](fundamentals/main-method.md)
+  * [Main method](fundamentals/main-method.md)
   * [Data types](fundamentals/data-types/README.md)
-    * [Boxing & Custing](fundamentals/data-types/boxing-and-custing.md)
-    * [Value Types](fundamentals/data-types/value-types.md)
+    * [Value types](fundamentals/data-types/value-types.md)
+    * [Reference types](fundamentals/data-types/reference-types.md)
+    * [Pointers](fundamentals/data-types/pointers.md)
+    * [Boxing & Unboxing](fundamentals/data-types/boxing-and-unboxing.md)
+    * [Implicit and Explicit Conversions (Casting)](fundamentals/data-types/implicit-and-explicit-conversions-casting.md)
   * [Keywords](fundamentals/keywords.md)
 * [Code quality](code-quality/README.md)
   * [Identifiers](code-quality/identifiers.md)

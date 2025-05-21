@@ -1,5 +1,7 @@
 # Data types
 
+## Introduction
+
 C# is a strongly typed language, meaning every variable, constant, and expression has a well-defined type. The type system is fundamental for ensuring type safety, code clarity, and optimal performance. This article provides a detailed overview of the type system in C#.
 
 ### Unified Type System (Common Type System)
@@ -25,4 +27,4 @@ Both value and reference types can be generic, meaning they can have parameters 
 
 
 
-<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>Value</td><td><a href="value-types.md">value-types.md</a></td></tr><tr><td>Reference</td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th></tr></thead><tbody><tr><td>Value</td><td><a href="value-types.md">value-types.md</a></td></tr><tr><td>Reference</td><td></td></tr><tr><td>Pointers</td><td></td></tr><tr><td>Boxing &#x26; Unboxing</td><td></td></tr><tr><td>Impilict &#x26; Explicit Casting</td><td></td></tr></tbody></table>
