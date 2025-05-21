@@ -56,11 +56,11 @@
 
 ## c# <a href="#csharp" id="csharp"></a>
 
-* [Introduction](csharp/introduction.md)
+* [Overview](csharp/overview.md)
 
 ***
 
-* [Hello World: Your first C# program](hello-world-your-first-c-program.md)
+* [Your first c# program](your-first-c-program.md)
 * [Fundamentals](fundamentals/README.md)
   * [Program structure](fundamentals/program-structure.md)
   * [Main method](fundamentals/main-method.md)
@@ -74,7 +74,7 @@
 * [Code quality](code-quality/README.md)
   * [Identifiers](code-quality/identifiers.md)
   * [Code Conventions](code-quality/code-conventions.md)
-  * [🥷 Ninja Code](code-quality/ninja-code.md)
+  * [Ninja Code](code-quality/ninja-code.md)
 * [Memory management](memory-management/README.md)
   * [Stack & Heap](memory-management/stack-and-heap.md)
   * [Garbage Collector](memory-management/garbage-collector.md)

@@ -14,7 +14,7 @@ C# employs the **CTS**, which ensures interoperability between different .NET la
 
 Both value and reference types can be generic, meaning they can have parameters specifying the type arguments.
 
-## Value vs Reference Types
+### Value vs Reference Types
 
 | Feature               | Value Types                           | Reference Types                    |
 | --------------------- | ------------------------------------- | ---------------------------------- |

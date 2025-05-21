@@ -1,4 +1,4 @@
-# 🥷 Ninja Code
+# Ninja Code
 
 > "Learning without thought is labor lost; thought without learning is perilous."
 >
@@ -22,7 +22,6 @@ Many try to follow ninja paths. Few succeed.
 For instance, take a look at this nested ternary operator in C#:
 
 ```csharp
-csharpCopyEdit// Taken from a legendary C# ninja's project
 i = i != 0 ? i < 0 ? Math.Max(0, len + i) : i : 0;
 ```
 
@@ -133,7 +132,7 @@ Inside functions, try using only parameters:
 void NinjaFunction(Element elem)
 {
     // 20 lines working with elem...
-
+    
     elem = elem.Clone();
 
     // 20 more lines now working with the clone!

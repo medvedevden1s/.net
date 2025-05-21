@@ -1,10 +1,8 @@
-# Introduction
+# Overview
 
-### What is C#?
+### Introduction
 
-C# is a object-oriented programming language.&#x20;
-
-Developed by Microsoft, it is widely known for its simplicity, versatility, and robust performance, enabling developers to build reliable and scalable applications. C# runs on the .NET framework, allowing your code to operate seamlessly across multiple platforms, including Windows, Linux, macOS, mobile devices, and even IoT hardware.
+C# is a modern, object-oriented programming language. Developed by Microsoft, it is widely known for its simplicity, versatility, and robust performance, enabling developers to build reliable and scalable applications. C# runs on the .NET framework, allowing your code to operate seamlessly across multiple platforms, including Windows, Linux, macOS, mobile devices, and even IoT hardware.
 
 ### Historical Context and Evolution
 
