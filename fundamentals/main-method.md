@@ -66,7 +66,7 @@ Console.WriteLine($"Calculated Velocity: {velocity} m/s");
 * The compiler implicitly generates the Main method for you.
 * Explicit Main declaration isn't allowed alongside top-level statements.
 
-### ❓ FAQs
+### FAQs&#x20;
 
 #### Why must the Main method be static?
 

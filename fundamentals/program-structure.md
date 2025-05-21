@@ -54,7 +54,17 @@ namespace Physics.Calculations
 
 
 
-### ❓FAQs
+### Summary
+
+You’ve clearly learned about:
+
+* The basic structure of C# programs.
+* How namespaces organize and separate different functionalities.
+* Practical examples demonstrating a clear project structure.
+
+This knowledge helps you create organized, maintainable, and scalable C# projects.
+
+### FAQs
 
 **What exactly is a namespace in C#?**\
 A namespace is a logical container used to organize classes, interfaces, structs, and other types clearly and avoid naming conflicts.
@@ -67,13 +77,3 @@ It's recommended for readability and easy navigation, although it's not strictly
 
 **Can one namespace span across multiple files?**\
 Absolutely. You can split namespaces across multiple files to logically group and manage large projects.
-
-### 🚩 Summary
-
-You’ve clearly learned about:
-
-* The basic structure of C# programs.
-* How namespaces organize and separate different functionalities.
-* Practical examples demonstrating a clear project structure.
-
-This knowledge helps you create organized, maintainable, and scalable C# projects.

@@ -16,10 +16,6 @@
 * [OpenAPI](basics/openapi.md)
 * [Integrations](basics/integrations.md)
 
-## Introduction
-
-* [Page 1](introduction/page-1.md)
-
 ## Interview Questions
 
 * [Basic](interview-questions/basic/README.md)
@@ -68,9 +64,16 @@
 * [Fundamentals](fundamentals/README.md)
   * [Program structure](fundamentals/program-structure.md)
   * [Main Method](fundamentals/main-method.md)
+  * [Data types](fundamentals/data-types/README.md)
+    * [Boxing & Custing](fundamentals/data-types/boxing-and-custing.md)
+    * [Value Types](fundamentals/data-types/value-types.md)
   * [Keywords](fundamentals/keywords.md)
-  * [Types](fundamentals/types.md)
 * [Code quality](code-quality/README.md)
   * [Identifiers](code-quality/identifiers.md)
   * [Code Conventions](code-quality/code-conventions.md)
   * [🥷 Ninja Code](code-quality/ninja-code.md)
+* [Memory management](memory-management/README.md)
+  * [Stack & Heap](memory-management/stack-and-heap.md)
+  * [Garbage Collector](memory-management/garbage-collector.md)
+* [Performance](performance/README.md)
+  * [Changing Value-Type Behavior with ref keyword](performance/changing-value-type-behavior-with-ref-keyword.md)
