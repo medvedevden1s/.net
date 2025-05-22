@@ -47,7 +47,7 @@ decimal preciseMeasurement = (decimal)measurement;
 ```
 
 {% hint style="warning" %}
-### Practical Considerations
+#### Practical Considerations
 
 **Data Loss:** Be aware explicit casting can truncate data or lose precision.
 

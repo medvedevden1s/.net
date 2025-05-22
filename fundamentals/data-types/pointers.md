@@ -8,7 +8,7 @@ P**ointer type** stores the **memory address** of another variable. While C# is 
 
 ***
 
-### Using a pointer&#x20;
+### Using a pointer
 
 ```csharp
 using System;
@@ -39,7 +39,7 @@ Updated Grade: 95
 
 ***
 
-### Pointers with managed objects&#x20;
+### Pointers with managed objects
 
 Normally, pointer types in C# are used with **unmanaged types** — such as `int`, `double`, `bool`, and structs that contain only unmanaged fields — because these types have a **fixed, predictable layout** in memory and are **not moved by the Garbage Collector (GC)**. Reference types (like `string`, `class`, or arrays):
 
@@ -51,7 +51,7 @@ Normally, pointer types in C# are used with **unmanaged types** — such as `int
 
 You **can** use pointers with managed objects by **pinning** them using the `fixed` keyword. This prevents the GC from moving the object during the pointer's lifetime.
 
-#### Example: Pinning a string
+
 
 ```csharp
 string myString = "Hello";
@@ -66,11 +66,6 @@ In this example:
 
 * `fixed` ensures that `myString` **stays at its current memory location**
 * The pointer `ptr` safely accesses the underlying character data
-
-| Scenario                                   | Can Use Pointer? | Requires `fixed`? |
-| ------------------------------------------ | ---------------- | ----------------- |
-| Unmanaged value types                      | ✅ Yes            | ❌ No              |
-| Managed types (e.g., string, array, class) | ✅ With pinning   | ✅ Yes             |
 
 ### Key Rules for Pointer Types
 
@@ -143,8 +138,7 @@ Most of the time, pointer use can be avoided using safer, modern features:
 
 * `ref` / `out` parameters — for passing variables by reference
 * `Span<T>` and `Memory<T>` — for safe stack-based or heap-based memory access
-* `Marshal` and `GCHandle` — for working with unmanaged memory or interop\
-
+* `Marshal` and `GCHandle` — for working with unmanaged memory or interop\\
 
 {% hint style="info" %}
 If you're working with buffers, slices, or native interop — prefer `Span<T>` or `Memory<T>` unless raw pointers are absolutely necessary.
