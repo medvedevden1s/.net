@@ -26,7 +26,7 @@ Imagine stacking plates vertically. You always add or remove plates from the top
 #### Example of Stack Allocation:
 
 ```csharp
-csharpCopyEditvoid Calculate()
+void Calculate()
 {
     int x = 10;             // Stored on stack (first pushed)
     int y = 20;             // Stored on stack (second pushed)
@@ -59,7 +59,7 @@ Imagine a large warehouse where items (objects) are stored randomly and identifi
 #### Example of Heap Allocation:
 
 ```csharp
-csharpCopyEditclass Person
+class Person
 {
     public string Name { get; set; }
 }

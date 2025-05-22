@@ -61,7 +61,7 @@ To handle conversions safely, especially from strings to numeric types, C# provi
 #### Example using `Convert` class:
 
 ```csharp
-csharpCopyEditstring value = "150";
+string value = "150";
 try
 {
     int number = Convert.ToInt32(value);
@@ -82,7 +82,7 @@ catch (OverflowException)
 The `TryParse` method is highly recommended as it avoids exceptions and provides safer parsing:
 
 ```csharp
-csharpCopyEditstring decimalValue = "34.89";
+string decimalValue = "34.89";
 if (decimal.TryParse(decimalValue, out decimal price))
 {
     Console.WriteLine($"Parsed price: {price:C}");

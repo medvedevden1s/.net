@@ -11,7 +11,7 @@ P**ointer type** stores the **memory address** of another variable. While C# is 
 ### Using a pointer&#x20;
 
 ```csharp
-csharpCopyEditusing System;
+using System;
 
 unsafe class Program
 {
@@ -54,7 +54,7 @@ You **can** use pointers with managed objects by **pinning** them using the `fix
 #### Example: Pinning a string
 
 ```csharp
-csharpCopyEditstring myString = "Hello";
+string myString = "Hello";
 
 fixed (char* ptr = myString)
 {
@@ -120,7 +120,7 @@ You must also:
 However, you **can use pointers** with them by **pinning** the object using the `fixed` keyword:
 
 ```csharp
-csharpCopyEditstring text = "Hello";
+string text = "Hello";
 fixed (char* ptr = text)
 {
     Console.WriteLine(*ptr);

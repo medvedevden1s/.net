@@ -28,7 +28,7 @@ In game development, you often handle large collections of small objects—such 
 Consider a simple scenario where you update the position of 1,000,000 particles each frame:
 
 ```csharp
-csharpCopyEditstruct Vector3D
+struct Vector3D
 {
     public float X, Y, Z;
 }
@@ -41,7 +41,7 @@ csharpCopyEditstruct Vector3D
 By default, structs are copied when passed to methods:
 
 ```csharp
-csharpCopyEditvoid MoveVector(Vector3D vector, Vector3D delta)
+void MoveVector(Vector3D vector, Vector3D delta)
 {
     vector.X += delta.X;
     vector.Y += delta.Y;
@@ -78,7 +78,7 @@ void Main()
 Using the `ref` keyword allows us to pass the original struct directly, avoiding copies:
 
 ```csharp
-csharpCopyEditvoid MoveVector(ref Vector3D vector, Vector3D delta)
+void MoveVector(ref Vector3D vector, Vector3D delta)
 {
     vector.X += delta.X;
     vector.Y += delta.Y;

@@ -99,7 +99,7 @@ foreach (var name in names)
 Defines a user-created type that can contain fields, methods, and properties.
 
 ```csharp
-csharpCopyEditpublic class Product
+public class Product
 {
     public string Description;
     public decimal Price;
@@ -115,7 +115,7 @@ Used for modeling real-world entities and behaviors.
 Describes a contract. Any type that implements the interface must provide implementations for its members.
 
 ```csharp
-csharpCopyEditpublic interface ILogger
+public interface ILogger
 {
     void Log(string message);
 }
@@ -130,7 +130,7 @@ Interfaces allow for **abstraction and loose coupling** in your design.
 A type that represents **a reference to a method**.
 
 ```csharp
-csharpCopyEditpublic delegate void Notify(string message);
+public delegate void Notify(string message);
 ```
 
 Commonly used for **event handling** and callbacks.
@@ -142,7 +142,7 @@ Commonly used for **event handling** and callbacks.
 Introduced in C# 9, `record` is a reference type that provides **value-based equality** and **immutable** behavior by default.
 
 ```csharp
-csharpCopyEditpublic record Person(string FirstName, string LastName);
+public record Person(string FirstName, string LastName);
 ```
 
 Ideal for **data-carrying types** like DTOs or immutable models.
@@ -174,7 +174,7 @@ Ideal for **data-carrying types** like DTOs or immutable models.
 Yes. `null` means the variable **does not reference any object**.
 
 ```csharp
-csharpCopyEditProduct product = null;
+Product product = null;
 ```
 
 Accessing a member of a `null` reference will result in a `NullReferenceException`.
@@ -231,7 +231,7 @@ Yes. Arrays in C# are **always reference types**, even if they store value-type 
 Yes, but both variables will **point to the same object** in memory.
 
 ```csharp
-csharpCopyEditvar a = new Product();
+var a = new Product();
 var b = a;
 b.Description = "Updated"; 
 Console.WriteLine(a.Description); // Outputs: Updated
