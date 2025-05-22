@@ -2,14 +2,30 @@
 
 ### Boxing
 
-Boxing converts a value type to an object, while unboxing extracts the value type from an object.
+Boxing is the process of converting a **value type** into a **reference type** by wrapping it inside an `object`.
 
+```csharp
+int x = 42;
+object obj = x; // Boxing
 ```
-int number = 100;
-object boxedNumber = number; // Boxing
-int unboxedNumber = (int)boxedNumber; // Unboxing
+
+### Unboxing
+
+Unboxing is the reverse—**extracting** the value type from an object.
+
+```csharp
+int y = (int)obj; // Unboxing
 ```
+
+### How It Works
+
+Boxing copies the value into a **new object** on the **heap**. Unboxing requires **explicit casting** and retrieves the value from that heap object.
 
 {% hint style="warning" %}
-Boxing/unboxing involves performance overhead. Minimize unnecessary boxing to improve performance.
+Boxing and unboxing involve memory allocation and type casting, which can affect performance in tight loops or high-frequency operations.
 {% endhint %}
+
+#### When to Avoid
+
+* Inside performance-critical code
+* When dealing with collections (use `List<int>` instead of `List<object>`)
