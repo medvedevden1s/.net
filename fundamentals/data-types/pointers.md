@@ -4,7 +4,9 @@
 
 P**ointer type** stores the **memory address** of another variable. While C# is generally a type-safe language, it allows direct memory manipulation using **unsafe code blocks**, similar to C or C++.
 
-> Pointer types are considered _unsafe_ and are typically used in low-level scenarios like performance-critical code or interop with native APIs.
+{% hint style="info" %}
+Pointer types are considered _unsafe_ and are typically used in low-level scenarios like performance-critical code or interop with native APIs.
+{% endhint %}
 
 ***
 
@@ -122,7 +124,7 @@ fixed (char* ptr = text)
 }
 ```
 
-> `fixed` prevents the GC from moving the object while the pointer is in use.
+`fixed` prevents the GC from moving the object while the pointer is in use.
 
 ***
 
