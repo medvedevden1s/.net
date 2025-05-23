@@ -12,15 +12,15 @@ They help enforce **encapsulation**, protect your APIs, and control **exposure**
 
 ### Access Modifiers
 
-| **Modifier**         | **Scope / Meaning**                                                                                        |
-| -------------------- | ---------------------------------------------------------------------------------------------------------- |
-| `public`             | Accessible from **any code** in **any assembly**. No restrictions.                                         |
-| `private`            | Accessible **only within the containing type** (class, struct, or record). Not visible to other types.     |
-| `protected`          | Accessible within the **containing type** and **types that inherit from it**, even if in another assembly. |
-| `internal`           | Accessible to any code **within the same assembly**. Not accessible from another assembly.                 |
-| `protected internal` | Accessible from **the same assembly** or from **derived types in other assemblies**. (OR logic)            |
-| `private protected`  | Accessible only within the **same assembly** and only to **derived types**. (AND logic)                    |
-| `file`               | Accessible **only within the same source file**. Useful for helper types in C# 11+                         |
+| **Modifier**         | **Scope / Meaning**                                                                                    |
+| -------------------- | ------------------------------------------------------------------------------------------------------ |
+| `public`             | Accessible from **any code** in **any assembly**. No restrictions.                                     |
+| `private`            | Accessible **only within the containing type** (class, struct, or record). Not visible to other types. |
+| `protected`          | Accessible within within **its class and by derived class instances**.                                 |
+| `internal`           | Accessible to any code **within the same assembly**. Not accessible from another assembly.             |
+| `protected internal` | Accessible from **the same assembly** or from **derived types in other assemblies**. (OR logic)        |
+| `private protected`  | Accessible only within the **same assembly** and only to **derived types**. (AND logic)                |
+| `file`               | Accessible **only within the same source file**. Useful for helper types in C# 11+                     |
 
 ***
 

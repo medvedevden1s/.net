@@ -9,7 +9,7 @@ The `private` modifier limits the visibility of a member exclusively to the clas
 Consider a banking application. You wouldn’t want account balances modified freely from outside the class, as it could lead to critical errors or fraud. Using the `private` modifier, you protect this critical data.
 
 ```csharp
-csharpCopyEditclass Account
+class Account
 {
     private decimal _balance;
 
@@ -40,7 +40,7 @@ csharpCopyEditclass Account
 #### Usage Example
 
 ```csharp
-csharpCopyEditvar myAccount = new Account(1000m);
+var myAccount = new Account(1000m);
 myAccount.Deposit(200m);
 bool success = myAccount.Withdraw(150m);
 Console.WriteLine($"Transaction successful: {success}, Balance: {myAccount.GetBalance():C}");
@@ -57,7 +57,7 @@ Console.WriteLine($"Transaction successful: {success}, Balance: {myAccount.GetBa
 Interface members are implicitly public. However, starting from C# 8.0, interfaces can define private methods **only when providing default implementations**. Private interface methods help avoid code repetition and encapsulate internal logic clearly:
 
 ```csharp
-csharpCopyEditpublic interface ILogger
+public interface ILogger
 {
     void Log(string message);
 
@@ -138,7 +138,7 @@ struct Coordinate
 Absolutely, private constructors are commonly used in singleton patterns or to control instance creation:
 
 ```csharp
-csharpCopyEditclass Singleton
+class Singleton
 {
     private static Singleton? _instance;
     private Singleton() { }
