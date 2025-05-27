@@ -1,0 +1,2 @@
+# The sealed keyword
+
