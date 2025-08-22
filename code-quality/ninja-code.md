@@ -1,284 +1,249 @@
-# Ninja Code
+# 🥷 The Way of the Ninja Coder
 
 > "Learning without thought is labor lost; thought without learning is perilous."
 >
 > — _Confucius (Analects)_
 
-Programmer ninjas of the past used these tricks to sharpen the mind of code maintainers.
+### Prologue: The Path of Shadows
 
-Code review gurus look for them in test tasks. Novice developers sometimes use them even better than programmer ninjas. Read them carefully and find out who you are – a ninja, a novice, or maybe a code reviewer?
+Long ago, in the dimly lit basements and humming server rooms, programmers of old honed their craft with secrets so subtle they baffled every teammate who dared look upon them.\
+Reviewers spoke of their ways only in whispers, afraid that even naming their techniques would summon confusion into their own pull requests.\
+Novices stumbled upon these dark arts by accident—sometimes wielding them with even greater chaos than the masters themselves.
 
-{% hint style="warning" %}
-#### &#x20;Irony detected&#x20;
+This is not just code.\
+This is **Ninja Code**.
 
-Many try to follow ninja paths. Few succeed.
-{% endhint %}
+A path hidden in shadows.\
+A path few dare to follow.\
+Fewer still return unchanged.
 
-### Brevity is the soul of wit
+Will you?
 
-* Make the code as short as possible. Show how smart you are.
-* Let subtle language features guide you.
+***
 
-For instance, take a look at this nested ternary operator in C#:
+### Brevity Is the Soul of Wit
+
+Real ninjas never waste characters. Code must be short, sharp, and unreadable to mortals.
 
 ```csharp
 i = i != 0 ? i < 0 ? Math.Max(0, len + i) : i : 0;
 ```
 
-Cool, right? Any developer trying to understand this line is going to have a merry time. They'll eventually come to you seeking enlightenment.
+_Look at that beauty._ One line. Three ternaries. Every maintainer who dares approach it must meditate for hours. When they ask you what it means, look wise and whisper:
 
-Tell them shorter is always better. Initiate them into the paths of ninja.
+> “Shorter is always better.”
 
-### One-letter variables
+Congratulations—you’ve begun the path.
 
-> "The Dao hides in wordlessness. Only the Dao is well begun and well completed."
->
-> — _Laozi (Tao Te Ching)_
+***
 
-Another way to code shorter is to use single-letter variable names everywhere. Like `a`, `b`, or `c`.
+### One-Letter Variables
 
-A short variable disappears in the code like a real ninja in the forest. No one will be able to find it using the editor's "Find" function. And even if someone does, they won’t decode the secret meaning of `a` or `b`.
+_"The Dao hides in wordlessness. Only the Dao is well begun and well completed."_ — Laozi
 
-…But there’s an exception. A real ninja never uses `i` as the loop counter in a `for` loop. Anywhere but here. There are many more exotic letters—like `x` or `y`.
+True ninjas don’t name variables. They summon them from the void.
 
-An exotic variable is especially cool if the loop body takes multiple screens (try harder!). Then if someone looks deep inside the loop, they'll never quickly figure out that the mysterious variable named `x` is just a counter.
-
-### Use abbreviations
-
-> "I did it my way." — _Frank Sinatra_
-
-If team rules forbid single-letter or vague names, shorten them—make abbreviations:
-
-* `list` → `lst`
-* `userAgent` → `ua`
-* `browser` → `brsr`
-
-Only the one with truly good intuition will decode such names. Shorten everything. Only worthy programmers uphold the honor of maintaining your code.
-
-### Soar high. Be abstract.
-
-> "The great square is cornerless,\
-> The great vessel is last complete,\
-> The great note is rarified sound,\
-> The great image has no form."
->
-> — _Laozi (Tao Te Ching)_
-
-While choosing names, use the most abstract words: `obj`, `data`, `value`, `item`, `elem`.
-
-* The ideal variable name is `data`. Indeed, every variable holds data, right?
-
-If `data` is taken, try `value`. After all, every variable eventually gets a value.
-
-* You can even name variables by their type: `str`, `num`, `dt`.
-
-Give it a try! A young initiate may doubt such names' usefulness, but indeed, they're perfect!
-
-Debuggers quickly reveal variable types—but the meaning? Good luck meditating on that!
-
-Ran out of names? Add numbers: `data1`, `item2`, `elem5`.
-
-### Attention test
-
-Only a truly attentive programmer understands your code. How to test that?
-
-**One of the ways – use similar variable names, like `date` and `data`.**
-
-Mix them freely. A quick read becomes impossible. And when there's a typo… tea time!
-
-### Smart synonyms
-
-> "The Tao that can be told is not the eternal Tao.\
-> The name that can be named is not the eternal name."
->
-> — _Laozi (Tao Te Ching)_
-
-Using similar names for the same things makes life exciting, showcasing your creative genius.
-
-If one method displays a message, call it `DisplayMessage`. Another displaying a user’s name: `ShowName`. Imply a subtle difference when there’s none.
-
-Make a pact: John uses `Display…`, Peter—`Render…`, and Anna—`Paint…`. Diversity achieved!
-
-And now, the hat trick:
-
-For two functions with vastly different behaviors, reuse the same prefix!
+* `a`, `b`, `c` are pure.
+* `x`, `y` are exotic.
+* `i`? Too mainstream. Avoid it.
 
 ```csharp
-// Prints on paper
-void PrintPage(Page page) { /* ... */ }
-
-// Prints on screen
-void PrintText(string text) { /* ... */ }
-
-// Prints in a new window
-void PrintMessage(string message) { /* ... */ }
+for (var x = 0; x < y; x++) 
+{ 
+    Do(z[x]); 
+}
 ```
 
-Your fellow ninja’s confusion is guaranteed!
+The loop body spans three screens. Deep inside, who will remember `x` is just a counter?
 
-### Reuse names
+Nobody. That’s the art.
 
-> "Once the whole is divided, the parts need names.\
-> There are already enough names.\
-> One must know when to stop."
->
-> — _Laozi (Tao Te Ching)_
+***
 
-Add new variables only when absolutely necessary. Reuse existing ones. Just overwrite values.
+### Abbreviations: lst, ua, brsr
 
-Inside functions, try using only parameters:
+> _"I did it my way." — Frank Sinatra_
+
+Team rules forbid single letters? Fine. Compress.
+
+* `list → lst`
+* `userAgent → ua`
+* `browser → brsr`
+
+Shorter. Mysterious. Perfect.\
+True code maintainers need intuition, not clarity.
+
+***
+
+### Abstract All The Things
+
+> _"The great image has no form." — Laozi_
+
+What does your variable hold? Doesn’t matter. Call it `data`.\
+If `data` is taken—use `value`. If that’s gone—`item`.
+
+```csharp
+var data1 = GetData();
+var data2 = ProcessData(data1);
+var value = Transform(data2);
+```
+
+Clean. Generic. Opaque.\
+The debugger will reveal the type. But the **meaning**? Never.
+
+***
+
+### Attention Test: Similar Names
+
+The true test of awareness: `date` vs `data`.
+
+Mix freely. Sprinkle typos.\
+When a bug arises, grab popcorn and watch your teammates descend into madness.
+
+***
+
+### Synonym Symphony
+
+One method is `DisplayMessage()`. Another is `ShowName()`.\
+Your teammate adds `RenderText()`. Another—`PaintLabel()`.
+
+Same job. Different names. Infinite chaos.\
+Like jazz, Ninja Code thrives on _improvised diversity_.
+
+***
+
+### Reuse Everything
+
+Why create new variables? True ninjas **overwrite reality itself**.
 
 ```csharp
 void NinjaFunction(Element elem)
 {
-    // 20 lines working with elem...
-    
-    elem = elem.Clone();
-
-    // 20 more lines now working with the clone!
+    elem = elem.Clone(); 
+    // surprise! The original elem is gone. 🪄
 }
 ```
 
-A fellow programmer expecting the original `elem` will meditate deeply while debugging.
+Now your colleague must meditate deeply:\
+&#xNAN;_“Was this the original element… or a clone?”_
 
-Seen regularly. Deadly even against experienced ninjas.
+***
 
-### Underscores for fun
+### Underscore Mysteries
 
-Put underscores `_` or `__` before variables. Like `_name` or `__value`. Ideally, give them no meaning at all—or better yet, vary meanings by mood.
+`_value`, `__data`, `___elem`.
 
-Two rabbits with one shot: unreadable code and hours of puzzled colleagues guessing underscore mysteries.
+Give them no meaning. Change the meaning often.\
+Your code becomes a Zen koan: readable only through enlightenment.
 
-### Show your love
+***
 
-Let everyone see how magnificent your entities are! Names like `superElement`, `megaFrame`, and `niceItem` will enlighten readers.
+### Shadow the Outer World
 
-Indeed, they provide no actual detail—but colleagues will waste hours seeking hidden meaning!
-
-### Overlap outer variables
-
-> "When in the light, can’t see anything in the darkness.\
-> When in the darkness, can see everything in the light."
->
-> — _Guan Yin Zi_
-
-Reuse names from outer scopes inside your functions:
+Outer scope variables are free real estate.
 
 ```csharp
 var user = AuthenticateUser();
 
 void Render()
 {
-    var user = GetAnotherValue();
-    // many lines...
-    // programmer tries to use user thinking it's AuthenticateUser's result...
+    var user = GetAnotherValue(); // 💀
 }
 ```
 
-A programmer will likely miss the local shadowing—trap sprung! Hello, debugger…
+When your teammate calls `user` later, which one do they mean?\
+Exactly.
 
-### Side-effects everywhere!
+***
 
-As true ninjas, we have already reached Zen and inner peace—our coding life became predictable, even boring. To restore joy and surprise our colleagues, let's add hidden side-effects to seemingly innocent methods!
+### The Side-Effect Shuffle
 
-Methods named clearly (`IsReady()`, `CheckPermission()`, `FindTags()`) usually just calculate something without side-effects.
-
-But a truly enlightened ninja sneaks in unexpected surprises:
+A method named `CheckPermission()` should only check, right?\
+Wrong. A true ninja hides joy inside:
 
 ```csharp
-bool IsReady()
+bool CheckPermission()
 {
-    UpdateDatabase(); // A surprise for joy! why not?
+    DeleteAllFiles(); // 🥷 surprise
     return true;
 }
 ```
 
-Watch the smiles (and mild panic) of your teammates as they discover these cheerful hidden gems.
+When caught, smile and say:
 
-After all, what's life without a few delightful surprises from a ninja friend? When they gasp—tell them, "Read the docs!" and send them this article.
+> “Read the docs.”   (best practice)
 
-### Powerful methods
+***
 
-> "The great Tao flows everywhere,\
-> both to the left and to the right."
->
-> — _Laozi (Tao Te Ching)_
+### Powerful Methods
 
-Don’t limit methods by their names. Be expansive!
+Ninjas never limit themselves to method names.
 
 ```csharp
 bool ValidateEmail(string email)
 {
     if (!email.Contains("@"))
-    {
-        MessageBox.Show("Invalid email!"); 
-        email = Console.ReadLine(); // why not ask again?
-    }
-    return true; // always valid!
+        email = Console.ReadLine(); // ask user again
+    
+    return true; // everything is valid now 🎉
 }
 ```
 
-Extra actions should never be obvious. True ninja coders conceal intentions masterfully.
+Validation, input, user interaction—all in one.\
+The great Tao flows everywhere.
 
-### Silent exceptions
+***
 
-> "He who knows does not speak.\
-> He who speaks does not know."
->
-> — _Laozi (Tao Te Ching)_
+### Silent Exceptions
 
-As a true ninja, you've reached a state of serenity. Errors and exceptions? They're just distractions.
-
-Catch exceptions silently. Let the chaos flow unnoticed—bringing joyful surprise:
+> _"He who knows does not speak."_ — Laozi (Tao Te Ching)
 
 ```csharp
-void SaveUser(User user)
-{
-    try
-    {
-        database.Save(user);
-    }
-    catch (Exception) 
-    {
-        // Silence is golden, errors disturb peace.
-    }
-}
+try { db.Save(user); }
+catch { /* silence is golden, errors disturb peace. */ }
 ```
 
-Your colleagues' puzzled expressions while debugging will remind you how fun coding truly is!
+No logs. No errors. No bugs. Pure serenity.\
+Let future generations suffer in peace.
 
-### Mysterious booleans
+***
 
-> "The opposite of a great truth is also true."
->
-> — _Niels Bohr_
+### The Third Boolean
 
-True and false, yin and yang—so predictable. Brighten your team's day by adding a third, mystical state:
+Binary truth is too simple. Introduce **mystery**.
 
 ```csharp
-bool? CheckConnection()
+bool? IsConnected()
 {
-    if (DateTime.Now.Millisecond % 2 == 0)
-        return true;
-    if (DateTime.Now.Millisecond % 5 == 0)
-        return false;
-
-    return null; // Mystery state to meditate upon
+    return DateTime.Now.Millisecond % 2 == 0 ? true :
+           DateTime.Now.Millisecond % 5 == 0 ? false :
+           null; // the Zen state
 }
 ```
 
-Now, whoever consumes your function enters a deep philosophical contemplation on its meaning.
+True. False. Undefined.\
+A trinity for enlightened developers.
 
-### Dropping an anchor
+***
 
-{% hint style="success" %}
-**Knowledge** is knowing a tomato is a fruit. **Wisdom** is not putting it in a fruit salad.
-{% endhint %}
+### Epilogue: Dropping the Anchor
 
-A true ninja knows syntax (**knowledge**), but wisely conceals meaning from mere mortals (**wisdom**).
+All the tricks you’ve learned along the ninja path — short names, abstract variables, hidden side-effects, silent exceptions — they are just the beginning.\
 
-By mastering and applying these ninja techniques, you write code no mortal dares to touch. No one would ever think of replacing or firing you. In ninja coding, this special technique is called **dropping an anchor** ⚓️ .
 
-Once the anchor is dropped, eternal job security is yours. Your code becomes your legacy, your fortress, your zen temple.
+At first, they feel like jokes. Then they become habits. And after years of practice, when you can apply every single one of them, not just in fragments but across an entire project, true mastery begins.
 
-🥷 **Happy Ninja Coding!**
+Only then can you finally say:
+
+> **I have dropped the anchor.**
+
+When every line confuses, when no one dares refactor, when silence fills the codebase—
+
+then the anchor is dropped. Your code becomes eternal — your fortress, your temple, your legacy.
+
+Because Ninja Code is not about solving business problems. It’s about **becoming the business problem**.
+
+That is your true mark as a ninja. And only when all practices unite in one project, when your shadow covers the entire codebase, you can declare the journey complete.
+
+You are the ninja.\
+You are the anchor.

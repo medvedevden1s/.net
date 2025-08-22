@@ -1,4 +1,4 @@
-# Stack & Heap
+# Stack and heap
 
 Understanding memory management is critical for writing efficient, robust applications in .NET. At the heart of memory management are two fundamental structures: the **stack** and the **heap**. Let's explore these concepts, their differences, and practical implications clearly.
 
@@ -77,16 +77,7 @@ Here, the reference (`person`) resides on the stack, pointing to the object's ac
 
 ### Stack vs. Heap
 
-| Aspect                 | Stack                        | Heap                                 |
-| ---------------------- | ---------------------------- | ------------------------------------ |
-| **Analogy**            | Stack of plates (LIFO)       | Warehouse storage (by reference IDs) |
-| **Use Case**           | Local variables, value types | Objects, reference types             |
-| **Speed**              | ⚡ Very fast                  | 🐢 Slower due to GC overhead         |
-| **Lifetime**           | Short-lived, method scope    | Longer-lived, managed by GC          |
-| **Size**               | Limited (\~1 MB per thread)  | Large (practically unlimited GBs)    |
-| **Managed by**         | Compiler/runtime             | Garbage Collector                    |
-| **GC Involved**        | ❌ No                         | ✅ Yes                                |
-| **Overflow Exception** | `StackOverflowException`     | `OutOfMemoryException`               |
+<figure><img src="../.gitbook/assets/{6404B630-74E0-4E86-B81D-929F91BE2BD3}.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -285,12 +276,12 @@ class Customer { public string Name; } // dynamic and potentially large data
 ```
 
 {% hint style="warning" %}
-#### **Advanced:**
+**Advanced:**
 {% endhint %}
 
 #### **Is using a struct always faster than a class?**
 
-Not necessarily. Small structs generally perform better. However, frequently copying large structs without `ref` can reduce performance significantly, potentially making a class a better choice. [changing-value-type-behavior-with-ref-keyword.md](../performance/changing-value-type-behavior-with-ref-keyword.md "mention")&#x20;
+Not necessarily. Small structs generally perform better. However, frequently copying large structs without `ref` can reduce performance significantly, potentially making a class a better choice. [changing-value-type-behavior-with-ref-keyword.md](../performance/changing-value-type-behavior-with-ref-keyword.md "mention")
 
 ***
 
