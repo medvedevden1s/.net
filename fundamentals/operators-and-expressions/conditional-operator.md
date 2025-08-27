@@ -4,7 +4,7 @@ The conditional operator (`?:`) in C# is like a mini decision-maker in your code
 
 Think of it as a compact if-else statement that fits on a single line - perfect for those situations where you need to make a simple choice without the verbosity of multiple lines of code.
 
-## Conditional operator (?:)
+## Conditional operator (`?:`)
 
 The conditional operator, also known as the ternary conditional operator, is a concise way to evaluate a Boolean expression and return one of two values depending on whether the expression is true or false.
 

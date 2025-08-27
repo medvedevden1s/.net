@@ -4,7 +4,7 @@ Subtraction operators in C# are like taking away items from a collection or step
 
 These versatile operators adapt their behavior based on what you're working with, making them essential tools in your C# programming toolkit.
 
-## Unary minus operator (-)
+## Unary minus operator (`-`)
 
 The unary minus operator (`-`) negates its operand, effectively changing its sign.
 
@@ -28,7 +28,7 @@ The unary minus operator works with all built-in numeric types, both integer and
 The unary minus operator is different from the subtraction operator, even though they use the same symbol.
 {% endhint %}
 
-## Subtraction operator (-)
+## Subtraction operator (`-`)
 
 The subtraction operator (`-`) is used to subtract one value from another, returning the difference.
 
@@ -116,7 +116,7 @@ Console.WriteLine(object.ReferenceEquals(first, a));  // Output: True
 To combine delegates, use the `+` operator. The combination and removal of delegates is particularly useful for event handling in C#.
 {% endhint %}
 
-## Subtraction assignment operator (-=)
+## Subtraction assignment operator (`-=`)
 
 The subtraction assignment operator (`-=`) combines subtraction and assignment in a single operation. It subtracts the right operand from the left operand and assigns the result back to the left operand.
 

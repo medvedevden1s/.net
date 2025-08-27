@@ -23,52 +23,9 @@ This way, articles remain **beginner-friendly**, but **technically complete** wi
     - Use analogies (e.g., compare memory to a bookshelf, methods to recipes, etc.).
 
 2. **Section Headings**
-    - Use H2 (`##`) for main sections.
+    - Use H2 (`##`) for main sections. Use code style where applicable code blocks eg. ## The `is` operator
     - Use H3 (`###`) for subsections if needed.
     - Capitalize only the first word: `## Main method (traditional)`
-
-3. **Code Samples**
-    - Always in C# code blocks.
-    - No “Example:” word before code — just provide the snippet.
-    - Every snippet must have **comments** so even a junior dev understands it.
-
-   ```csharp
-   using System;
-
-   class Program
-   {
-       static void Main(string[] args)
-       {
-           // Print all arguments passed into the program
-           Console.WriteLine("Arguments passed:");
-           foreach (var arg in args)
-           {
-               Console.WriteLine(arg);
-           }
-       }
-   }
-   ```
-
-4. **Hints**  
-   Use GitBook hints for emphasis:
-
-   ```markdown
-   {% hint style="info" %}
-   The runtime calls `Main` directly, so it must always be static.
-   {% endhint %}
-   ```
-
-   Styles:
-    - `info` → general notes
-    - `success` → best practices
-    - `warning` → common mistakes
-    - `danger` → critical pitfalls
-
-5. **Formatting**
-    - Inline images allowed:  
-      `<img src="../../.gitbook/assets/command_icon_light.svg" alt="Command Icon" data-size="line">`
-    - Use lists for clarity.
-    - You may use `<mark style="color:orange;background-color:purple;">highlighted text</mark>` for emphasis.
 
 ---
 
@@ -131,4 +88,157 @@ Only one file in a project may contain top-level statements.
 
 - **Is args mandatory?**  
   No, use it only if you need command-line arguments.  
+```
+
+Important: Use GitBook Markdown Syntax for Elements
+
+## Paragraphs
+Simply write text as usual. Separate paragraphs with a blank line.
+
+## Headings
+Use `#` for headings:
+```markdown
+# Heading 1
+## Heading 2
+### Heading 3
+```
+
+## Lists
+- Unordered: start with `-` or `*`
+- Ordered: use numbers
+- Task lists: `- [ ]` unchecked, `- [x]` checked
+
+```markdown
+- Item 1
+- Item 2
+  - Sub-item
+
+1. First
+2. Second
+
+- [ ] Task not done
+- [x] Task done
+```
+
+## Quotes
+```markdown
+> This is a blockquote.
+```
+
+## Code Blocks
+Basic:
+````markdown
+```csharp
+Console.WriteLine("Hello, World!");
+```
+````
+
+Advanced with options:
+````markdown
+{% code title="Example.cs" lineNumbers="true" overflow="wrap" %}
+```csharp
+Console.WriteLine("Hello, World!");
+```
+{% endcode %}
+````
+
+## Hints
+```markdown
+{% hint style="info" %}
+Some useful tip.
+{% endhint %}
+```
+Styles: `info`, `success`, `warning`, `danger`
+
+## Tables
+```markdown
+| Column A | Column B |
+| -------- | -------- |
+| Value 1  | Value 2  |
+| Value 3  | Value 4  |
+```
+
+## Cards
+```markdown
+<table data-view="cards">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th data-hidden data-card-target data-type="content-ref"></th>
+      <th data-hidden data-card-cover data-type="files"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Card Title</strong></td>
+      <td>Card description text.</td>
+      <td><a href="https://example.com">https://example.com</a></td>
+      <td><a href="image.png">image.png</a></td>
+    </tr>
+  </tbody>
+</table>
+```
+
+## Columns
+```markdown
+{% columns %}
+{% column width="50%" %}
+Column 1 content
+{% endcolumn %}
+
+{% column %}
+Column 2 content
+{% endcolumn %}
+{% endcolumns %}
+```
+
+## Tabs
+```markdown
+{% tabs %}
+{% tab title="Windows" %}
+Windows content here
+{% endtab %}
+
+{% tab title="macOS" %}
+macOS content here
+{% endtab %}
+{% endtabs %}
+```
+
+## Stepper
+```markdown
+{% stepper %}
+{% step %}
+### Step 1
+Do this
+{% endstep %}
+
+{% step %}
+### Step 2
+Do that
+{% endstep %}
+{% endstepper %}
+```
+
+## Expandable
+```markdown
+<details>
+<summary>More info</summary>
+
+Hidden text here.
+</details>
+```
+
+## Images
+```markdown
+![Alt text](https://example.com/image.png)
+```
+
+With caption:
+```markdown
+<figure>
+  <img src="https://example.com/image.png" alt="Description">
+  <figcaption>Caption for image</figcaption>
+</figure>
 ```

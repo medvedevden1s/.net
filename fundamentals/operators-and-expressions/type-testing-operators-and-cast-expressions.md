@@ -81,7 +81,7 @@ Pattern matching with the is operator:
 * Makes the variable available in the scope where the condition is true
 * Reduces code verbosity and potential casting errors
 
-### The as operator
+### The `as` operator
 
 The as operator is like a security guard who not only checks ID but also gives a visitor pass if the ID is valid. It attempts to convert an object to a specified type, returning null if the conversion isn't possible.
 
@@ -186,7 +186,7 @@ The typeof operator:
 Unlike GetType(), which works on objects at runtime, typeof() works on type names at compile time.
 {% endhint %}
 
-### Type testing with the typeof operator
+### Type testing with the `typeof` operator
 
 The typeof operator can be combined with GetType() to perform precise type checking:
 
@@ -197,11 +197,11 @@ public class Giraffe : Animal { }
 public static void Main()
 {
     object b = new Giraffe();
-    
+
     // is operator checks compatibility
     Console.WriteLine(b is Animal);                 // True
     Console.WriteLine(b is Giraffe);                // True
-    
+
     // typeof checks exact type
     Console.WriteLine(b.GetType() == typeof(Animal));    // False
     Console.WriteLine(b.GetType() == typeof(Giraffe));   // True

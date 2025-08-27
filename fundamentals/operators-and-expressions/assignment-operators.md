@@ -4,7 +4,7 @@ Assignment operators in C# are like moving boxes from one place to another. They
 
 These operators are fundamental to programming as they allow us to store and update values throughout our code's execution.
 
-## Basic assignment operator (=)
+## Basic assignment operator (`=`)
 
 The most common assignment operator is the simple equals sign (=). It's like a direct transfer of a value from one place to another.
 
@@ -47,7 +47,7 @@ if ((x = y) > 0)
 The assignment operator copies the value for value types and copies the reference for reference types, not the object itself.
 {% endhint %}
 
-## Null-conditional assignment (?.=)
+## Null-conditional assignment (`?.=`)
 
 Beginning with C# 14, you can use the null-conditional operator with assignment. This performs the assignment only if the left-hand operand is not null.
 
@@ -102,7 +102,7 @@ Compound assignment operators have some advantages:
 Compound assignment operators are particularly useful when working with properties or indexers, as they only need to access them once.
 {% endhint %}
 
-## Ref assignment (= ref)
+## Ref assignment (`= ref`)
 
 Ref assignment makes its left-hand operand an alias to the right-hand operand. Instead of copying values, it creates a reference to the same storage location.
 
@@ -144,7 +144,7 @@ Console.WriteLine(message);  // Output: Original (unchanged)
 When a parameter is ref reassigned, it no longer refers to its argument. Any changes after reassignment won't affect the original argument.
 {% endhint %}
 
-## Null-coalescing assignment (??=)
+## Null-coalescing assignment (`??=`)
 
 The null-coalescing assignment operator ??= assigns the value of its right-hand operand to its left-hand operand only if the left-hand operand evaluates to null.
 
@@ -181,12 +181,12 @@ A user-defined type can't directly overload the assignment operator (=). However
 public struct Money
 {
     public decimal Amount { get; }
-    
+
     public Money(decimal amount)
     {
         Amount = amount;
     }
-    
+
     // Implicit conversion from decimal to Money
     public static implicit operator Money(decimal amount)
     {
@@ -211,7 +211,7 @@ public struct BigInteger
     { 
         // Create and return a new instance
     }
-    
+
     // Compound addition assignment operator (C# 14)
     public static BigInteger operator +=(BigInteger left, BigInteger right)
     {

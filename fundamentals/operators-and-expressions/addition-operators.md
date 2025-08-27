@@ -4,7 +4,7 @@ Addition operators in C# are like the basic arithmetic you learned in school, bu
 
 These versatile operators adapt their behavior based on what you're working with, making them fundamental tools in your C# toolkit.
 
-## Addition operator (+)
+## Addition operator (`+`)
 
 The addition operator (`+`) is one of the most commonly used operators in C#. Its behavior depends on the types of its operands.
 
@@ -93,7 +93,7 @@ When you combine delegates, the resulting delegate invokes the left-hand operand
 Delegate combination is particularly useful for event handling, allowing multiple subscribers to respond to a single event.
 {% endhint %}
 
-## Addition assignment operator (+=)
+## Addition assignment operator (`+=`)
 
 The addition assignment operator (`+=`) combines addition and assignment in a single operation. It adds the right operand to the left operand and assigns the result back to the left operand.
 

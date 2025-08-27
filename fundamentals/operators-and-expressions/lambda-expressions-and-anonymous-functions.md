@@ -4,7 +4,7 @@ Lambda expressions in C# are like shorthand notes for functions. Just as you mig
 
 These anonymous functions are particularly valuable when you need to encapsulate a small piece of logic that doesn't warrant a full method definition, especially when working with collections, asynchronous operations, or event handlers.
 
-## Lambda operator (=>)
+## Lambda operator (`=>`)
 
 The lambda operator => (sometimes called the "goes to" operator) is the defining feature of lambda expressions. It separates the input parameters from the function body, like a bridge connecting what goes in to what comes out.
 
