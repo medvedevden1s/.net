@@ -1,4 +1,4 @@
-# Namespace keyword
+# The namespace keyword
 
 ## Introduction
 
