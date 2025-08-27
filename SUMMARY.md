@@ -23,7 +23,7 @@
   * [.NET 10](.net/whats-new/.net-10.md)
   * [.NET 9](.net/whats-new/.net-9.md)
 
-## c# <a href="#csharp" id="csharp"></a>
+## C# <a href="#csharp" id="csharp"></a>
 
 * [Overview](csharp/overview.md)
 
@@ -91,7 +91,6 @@
     * [Contextual Keywords](fundamentals/keywords/contextual-keywords.md)
     * [Query Keywords](fundamentals/keywords/query-keywords.md)
   * [Operators and expressions](fundamentals/operators-and-expressions/README.md)
-    * [Overview](fundamentals/operators-and-expressions/README.md)
     * [Arithmetic operators](fundamentals/operators-and-expressions/arithmetic-operators.md)
     * [Boolean logical operators](fundamentals/operators-and-expressions/boolean-logical-operators-and-or-not-xor.md)
     * [Bitwise and shift operators](fundamentals/operators-and-expressions/bitwise-and-shift-operators.md)
@@ -108,6 +107,13 @@
     * [+ and += operators](fundamentals/operators-and-expressions/addition-operators.md)
     * [- and -= operators](fundamentals/operators-and-expressions/subtraction-operators.md)
     * [?: operator](fundamentals/operators-and-expressions/conditional-operator.md)
+    * [! (null-forgiving) operator](fundamentals/operators-and-expressions/null-forgiving-operator.md)
+    * [?? and ??= operators](fundamentals/operators-and-expressions/null-coalescing-operators.md)
+    * [Lambda expression (=>) operator](fundamentals/operators-and-expressions/lambda-expression-operator.md)
+    * [:: operator - the namespace alias operator](fundamentals/operators-and-expressions/namespace-alias-operator.md)
+    * [await operator - asynchronously await for a task to complete](fundamentals/operators-and-expressions/await-operator.md)
+    * [default value expressions - produce the default value](fundamentals/operators-and-expressions/default-value-expressions.md)
+    * [delegate operator](fundamentals/operators-and-expressions/delegate-operator.md)
 * [Code quality](code-quality/README.md)
   * [Identifiers](code-quality/identifiers.md)
   * [Code conventions](code-quality/code-conventions.md)
