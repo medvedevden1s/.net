@@ -150,7 +150,7 @@ When to use cast expressions:
 Cast expressions can throw InvalidCastException at runtime. Use the is or as operators for safer type conversions when the type isn't guaranteed.
 {% endhint %}
 
-### The typeof operator
+### The `typeof` operator
 
 The typeof operator is like looking up a building's blueprint. It obtains the System.Type instance for a type, which contains metadata about that type.
 
