@@ -97,6 +97,8 @@
     * [Collection expressions](fundamentals/operators-and-expressions/collection-expressions.md)
     * [Equality operators - test if two objects are equal or not](fundamentals/operators-and-expressions/equality-operators-test-if-two-objects-are-equal-or-not.md)
     * [Comparison operators](fundamentals/operators-and-expressions/comparison-operators.md)
+    * [Member access operators and expressions](fundamentals/operators-and-expressions/member-access-operators-and-expressions.md)
+    * [Member access operators and expressions_v1](fundamentals/operators-and-expressions/member-access-operators-and-expressions_v1.md)
 * [Code quality](code-quality/README.md)
   * [Identifiers](code-quality/identifiers.md)
   * [Code conventions](code-quality/code-conventions.md)
