@@ -127,7 +127,7 @@
 * [Code quality](code-quality/README.md)
   * [Identifiers](code-quality/identifiers.md)
   * [Code conventions](code-quality/code-conventions.md)
-  * [🥷 The Way of the Ninja Coder](code-quality/pirate-code.md)
+  * [Pirate's code](code-quality/pirate-code.md)
 * [Memory management](memory-management/README.md)
   * [Stack and heap](memory-management/stack-and-heap.md)
   * [Garbage collector](memory-management/garbage-collector.md)
